@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User login to WordpressApplication",
+        "description": "",
+        "id": "excel-reader-feature;user-login-to-wordpressapplication",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1070733000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Lauches the applicaton",
+            "match": {
+              "location": "ReadExcelDataTest.user_Lauches_the_applicaton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6328654699,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User loads below fixture file at \"C:/Users/HP/Documents/Framework/SeleniumPractice/fixtures/TestData.xlsx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "C:/Users/HP/Documents/Framework/SeleniumPractice/fixtures/TestData.xlsx",
+                  "offset": 34
+                }
+              ],
+              "location": "ReadExcelDataTest.user_loads_below_fixture_file_at(DataTable)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User closes the wordpress application",
+            "match": {
+              "location": "ReadExcelDataTest.user_closes_the_wordpress_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Excel reader feature",
+    "description": "",
+    "id": "excel-reader-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/HP/Documents/Framework/SeleniumPractice/features/ExcelData.feature"
+  }
+]

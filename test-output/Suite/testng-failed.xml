@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="url" value="https://in.yahoo.com/"/>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="url" value="https://in.yahoo.com/"/>
+    <classes>
+      <class name="com.qa.pages.TestNGWithParameter">
+        <methods>
+          <include name="launchBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.pages.TestNGWithParameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
